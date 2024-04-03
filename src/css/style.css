@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+header{
+    background-color: white;
+    padding: 10px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.container{
+    width: 100%;
+    margin: 0 10px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+.headerLeftIcon{
+
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    gap: 5px;
+}
+.search-bar input{
+    border: none;
+    outline: none;
+    padding: 13px;
+}
+.navbar-right .headerRightIconbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerRightIconBox i{
+    margin-right: 10px;
+}
+.dashboard-menu{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.icon-list{
+    margin-right: 50px;
+}
+.navbar {
+    background-color: gray;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #fff;
+}
+.navbar-toggle {
+    background-color: transparent;
+    border: none;
+    margin-right: 15px;
+}
+.navbar-nav {
+    margin-top: 10px;
+}
+.navbar-nav > li > a {
+    color: #007aff;;
+}
+
+.navbar-nav > li.active > a,
+.navbar-nav > li:hover > a {
+    background-color: white;
+}
+.icon-bar {
+    background-color: #fff;
+}
+#bar {
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 50px;
+    bottom: 0;
+    background-color: #007aff;
+    color: #fff;
+    overflow-y: auto;
+}
+.dashboard-header{
+    margin-bottom: auto;
+    order: -1;
+}
