@@ -29,7 +29,14 @@ header{
     align-items: center;
 }
 .headerLeftIcon{
+    
+}
 
+
+.main_div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 .search-bar{
     display: flex;
@@ -63,6 +70,8 @@ header{
     color: #fff;
     font-size: 16px;
     padding: 10px 0;
+    width: 100%;
+    height: 100%;
 }
 .navbar-brand {
     font-weight: bold;
@@ -89,10 +98,6 @@ header{
 }
 #bar {
     width: 250px;
-    position: fixed;
-    left: 0;
-    top: 50px;
-    bottom: 0;
     background-color: #007aff;
     color: #fff;
     overflow-y: auto;
