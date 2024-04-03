@@ -41,9 +41,10 @@ header{
 .search-bar{
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: black;
     border-radius: 5px;
     gap: 5px;
+
 }
 .search-bar input{
     border: none;
